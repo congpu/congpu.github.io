@@ -1,7 +1,7 @@
 
 ## Website
 
-The website was built based on the Academic Responsive (AR) Website Template https://github.com/dmsl/academic-responsive-template. 
+Acknowledgement: The website was built based on the Academic Responsive (AR) Website Template https://github.com/dmsl/academic-responsive-template. 
 
 ## License
 
