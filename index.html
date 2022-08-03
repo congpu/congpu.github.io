@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>[Cong Pu @ Oklahoma State]</title>
+        <link rel="shortcut icon" href="image/logo/okstate-logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Cong Pu, Oklahoma State University">
+        <meta name="author" content="Cong Pu">
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href=""><img border="0" width="90" src="image/logo/okstate-logo.png"/></a></span> 
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <li><a target="_blank" href="document/cv/cpu-cv-2021.pdf">CV (PDF)</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+     
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publication">Publication</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#award">Award</a>
+                        </li>
+              
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#course">Course</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#system">System</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="secnet/index.html" target="_blank">Lab</a>
+                        </li>
+
+                        <!--
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li> 
+                        -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                </div>
+                
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+        </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+
+                <div align="left" class="col-md-3">
+                    <br>
+                    <img id="mobile-img" src="image/headshot/cpu.jpg" width="180" border="0" height="225" alt="">
+                    <!--
+                    <a target="_blank" href="image/headshot/cpu.jpg">
+                        <img id="mobile-img" src="image/headshot/cpu.jpg" width="200" border="0" height="250" alt="">
+                    </a>
+                    -->
+                </div>
+
+                <div align="left" class="col-md-4">
+                    <h2><b>Cong Pu</b>
+                        <h5><i>Ph.D., <a href="https://www.ttu.edu/" target="_blank">Texas Tech University</a>, USA, 2016</i></h5>
+                    </h2>
+                    
+                    <h4>Assistant Professor<br>
+                        <a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank">Department of Computer Science</a><br>
+                        <a href="https://go.okstate.edu/" target="_blank">Oklahoma State University</a>
+                        <h4>
+                            Office: 216 MSCS 
+                            <br>
+                            Phone: (405) 744-6036
+                            <br>
+                            Email:
+                            <script language="JavaScript">
+                                document.write("&nbsp;");
+                                spiderjam('cong.pu','okstate.edu');
+                            </script>
+                            <h4>
+                            Research Lab: <a href="secnet/index.html" target="_blank"><i>Security & Networking Lab</i></a>
+                            </h4>
+                        </h4>
+                    </h4> 
+                </div>
+                
+                <div align="left" class="col-md-5">
+                    <br>
+                    <a href="https://cas.okstate.edu/" target="_blank"><img id="mobile-img" src="image/logo/osu-nomenclature.png" width="440" border="0" height="80" alt=""></a>
+					<h4>
+					<b>Mailing Address:</b>
+                    </h4>
+                    <h4>
+                        Department of Computer Science <br>
+                        216 MSCS (Math, Statistics and Computer Sciences)<br>
+                        Oklahoma State University <br>
+                        Stillwater, OK 74078 <br>
+                    </h4>
+                    <h4>
+                        Direction: <a target="_blank" href="https://goo.gl/maps/UL1sKz6ez3iUKbee9">Google Map</a>
+					</h4>
+                </div>
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+            </div>
+        </section>
+        
+        <!-- Bio Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead" align="justify">
+                            Dr. Cong Pu is a tenure-track assistant professor in the <a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank">Department of Computer Science</a>, <a href="https://go.okstate.edu/" target="_blank">Oklahoma State University</a> (<a href="http://stillwater.org/" target="_blank">Stillwater, Oklahoma</a>). 
+                            Before joining the Oklahoma State University, he was a tenure-track assistant professor in the Department of Computer Sciences and Electrical Engineering at Marshall University from January 2017 to August 2021.
+                            He received Ph.D. and M.S. in Computer Science degrees from <a href="https://www.ttu.edu/" target="_blank">Texas Tech University</a>, USA, and B.S. in Computer Science and Technology degree from Zhengzhou University, China. 
+                            His primary research interests include <b><i>network security</i></b>, <b><i>data privacy</i></b>, <b><i>applied cryptography</i></b>, <b><i>wireless networking</i></b>, and <b><i>mobile computing</i></b>.
+                        </p>
+ 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recruitment Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        <p class="lead" align="justify">
+                            <span class="label label-danger">Ph.D. Opportunity:</span> 
+                            In general, Dr. Cong Pu is looking for self-motivated and hardworking Ph.D. students all year around in the research areas of <i>network security</i>, <i>data privacy</i>, <i>applied cryptography</i>, <i>wireless networking</i>, and <i>mobile computing</i>. 
+                            Prospective Ph.D. students who have interests in the above research areas are encouraged to send the CV and supporting documents (e.g., sample publications, transcripts, and GRE and TOEFL scores) to Dr. Cong Pu.
+                            <img src="image/icon/door.gif" alt="" width="30" height="30"/>
+                            <br>
+                            <br>
+                            <!--
+                            He is always interested in finding self-motivated and hardworking students to join the Ph.D. program, so there's no need to ask "Are you looking for a new PhD student this year?"
+                            -->
+                            For Dr. Cong Pu's research group, he looks for students with the following background (these are not all requirements, but the more prospective students satisfy the better):
+                            <!--
+                            Prospective students with strong programming skills (e.g., C, C++, Java, and MATLAB) and theoretical background (e.g., computer network and network security) are preferred. 
+                            Experience with writing software or working with real-world testbeds/platforms will be considered as a plus.
+                            -->
+                            <ul>
+                                <li align="justify">B.S. or M.S. in computer science or electrical engineering</li>
+                                <li align="justify">Coursework and understanding of computer network, network security, and algorithm design</li>
+                                <li align="justify">Strong programming skills and experience (e.g., C, C++, Java, and MATLAB)</li>
+                                <li align="justify">Solid math, probability and statistics background</li>
+                                <li align="justify">Experience with writing software or working with real-world testbeds/platforms</li>
+                                <li align="justify">Research publications in security and networking</li>
+                            </ul>
+                            Prospective students are suggested to consider the above criteria to decide whether or not to apply.
+                            <br>
+                            <br>
+                            <p align="justify">
+                            <span class="label label-danger">Research Assistant Opportunity:</span> Research assistant positions are available for undergraduate students and graduate students at the Oklahoma State University. 
+                            Undergraduate and graduate students who (1) have relevant research experiences or have strong performance on programming/algorithm/math courses; and (2) could devote enough time on research are encouraged to apply. 
+                            For further information, please contact Dr. Cong Pu.
+                            <img src="image/icon/door.gif" alt="" width="30" height="30"/>
+                            </p>
+                            <br>
+                            <br>
+                            <p align="justify">
+                            <span class="label label-danger">Visiting Scholar Opportunity:</span> Visiting scholars are always welcome for co-work at the Oklahoma State University (Stillwater, Oklahoma). <a href="mailto:xxxx.xx.okstate.edu"><img src="image/icon/email.gif" alt="" width="45" height="45"/></a>
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section  name="news" id="news">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-6">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-news-content">
+                        
+                        <hr class="star-primary">
+                        
+                        <h2>Latest News <a href="news.html" class="btn btn-primary">More&raquo;</a></h2>
+
+                        <ul>
+                            <li align="justify"><span class="label label-success">Conference</span> Our paper entitled "Bilinear Pairing and PUF Based Lightweight Authentication Protocol for IoD Environment" has been accepted to appear at the <a target="_blank" href="https://sites.google.com/view/ieee-mass-2022">2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS)</a> - Security and Privacy Track, October 20 - 22, 2022.</li>
+                            <li align="justify"><span class="label label-success">Journal</span> Our paper entitled "A Lightweight and Anonymous Authentication and Key Agreement Protocol for Wireless Body Area Networks" has been accepted for publication by <a target="_blank" href="https://ieee-iotj.org/">IEEE Internet of Things Journal</a>, May 13, 2022.</li>
+                            <li align="justify"><span class="label label-success">Education</span> Cong Pu is recognized by West Virginia Higher Education Policy Commission and West Virginia Community & Technical College System for successful adoption of Open Education Resources (OER) in a course, demonstrating a strong commitment to innovation, college affordability, and student success, May 04, 2022. <a href="document/certificate/oer_spring_2022.pdf" target="_blank"> <img src="image/icon/certificate.png" height="35"></a></li>
+                            <li align="justify"><span class="label label-success">Journal</span> Our paper entitled "Drone Helps Privacy: Sky Caching Assisted k-Anonymity in Spatial Querying" has been accepted for publication by <a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003">IEEE Systems Journal</a>, April 26, 2022.</li>
+                            <li align="justify"><span class="label label-success">Journal</span> Our paper entitled "A Lightweight and Privacy-Preserving Mutual Authentication and Key Agreement Protocol for Internet of Drones Environment" has been accepted for publication by <a target="_blank" href="https://ieee-iotj.org/">IEEE Internet of Things Journal</a>, March 27, 2022.</li>
+                            <!--
+                            <li align="justify"><span class="label label-success">Conference</span> Our paper entitled "SecureIoD: A Secure Data Collection and Storage Mechanism for Internet of Drones" has been accepted to appear at the <a target="_blank" href="https://mdm2022.cs.ucy.ac.cy/">23rd IEEE International Conference on Mobile Data Management (MDM 2022)</a>, Paphos, Cyprus, June 6 - 9, 2022.</li>
+                            -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Research Section -->
+        <section  name="publication" id="publication">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2>Selected Publications <a href="publication.html" class="btn btn-primary">All Publications&raquo;</a></h2>
+
+                        <h4>
+                            <span class="label label-warning">
+                                <a href="document/cv/cpu-cv-2021.pdf" target="_blank" style="font-size:15px"><font color="white">CV</font></a>
+                            </span>&emsp; 
+                            <span class="label label-default">
+                                <a href="https://scholar.google.com/citations?hl=en&user=CgkMUckAAAAJ" target="_blank" style="font-size:15px"><font color="white">Google Scholar</font></a>
+                            </span>&emsp; 
+                            <!--
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color="white">h-index</font></a>: 15
+                            </span>&emsp;
+                            -->
+                            <span class="label label-warning">
+                                <a href="https://dblp.org/pid/189/9268.html" target="_blank" style="font-size:15px"><font color="white">DBLP</font></a>
+                            </span>&emsp;
+                            <span class="label label-default">
+                                <a href="http://orcid.org/0000-0002-7952-0038" target="_blank" style="font-size:15px"><font color="white">ORCID</font></a>
+                            </span>&emsp;
+                            <span class="label label-warning">
+                                <a href="https://www.scopus.com/authid/detail.uri?authorId=56430573100" target="_blank" style="font-size:15px"><font color="white">Scopus</font></a>
+                            </span>&emsp; 
+                            <span class="label label-default">
+                                <a href="https://www.researchgate.net/profile/Cong-Pu" target="_blank" style="font-size:15px"><font color="white">ResearchGate</font></a>
+                            </span>&emsp; 
+                            <span class="label label-warning">
+                                <a href="https://publons.com/researcher/3030364/cong-pu/" target="_blank" style="font-size:15px"><font color="white">Publons</font></a>
+                            </span>&emsp; 
+                            <span class="label label-default">
+                                <a href="https://www.semanticscholar.org/author/Cong-Pu/4308616" target="_blank" style="font-size:15px"><font color="white">Semantic Scholar</font></a>
+                            </span>&emsp; 
+                        </h4>
+
+                        <ul>
+                            <li align="justify"><span class="label label-success">IEEE MASS'22</span> <a target="_blank" href="document/paper/pu2022bilinear.pdf">"Bilinear Pairing and PUF Based Lightweight Authentication Protocol for IoD Environment"</a>, <b>Cong Pu</b>, Andrew Wall, and Kim-Kwang Raymond Choo, Proceedings of the 2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS) - Security and Privacy Track, October 20 - 22, 2022, <b>Accepted To Appear</b>. <a href="document/paper/pu2022bilinear.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="https://github.com/congpu/liteCrypto" target="_blank"> <img src="image/logo/GitHub.png" height="30"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE IoTJ</span> <a target="_blank" href="document/paper/ieee_iotj_2022_liteauth.pdf">"A Lightweight and Anonymous Authentication and Key Agreement Protocol for Wireless Body Area Networks"</a>, <b>Cong Pu</b>, Haleigh Zerkle, Andrew Wall, Sunho Lim, Kim-Kwang Raymond Choo, and Imtiaz Ahmed, IEEE Internet of Things Journal (Impact Factor: 9.471), May 13, 2022. <a href="document/paper/ieee_iotj_2022_liteauth.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="https://github.com/congpu/liteAuth" target="_blank"> <img src="image/logo/GitHub.png" height="30"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE ISJ</span> <a target="_blank" href="document/paper/ieee_systemsj_2022.pdf">"Drone Helps Privacy: Sky Caching Assisted k-Anonymity in Spatial Querying"</a>, Hema Naga Sai Sudha Jagarlapudi, Sunho Lim, Jinseok Chae, Gyu Sang Choi, and <b>Cong Pu</b>, IEEE Systems Journal (Impact Factor: 3.931), April 26, 2022. <a href="document/paper/ieee_systemsj_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE IoTJ</span> <a target="_blank" href="document/paper/ieee_iotj_2022_pmap.pdf">"A Lightweight and Privacy-Preserving Mutual Authentication and Key Agreement Protocol for Internet of Drones Environment"</a>, <b>Cong Pu</b>, Andrew Wall, Kim-Kwang Raymond Choo, Imtiaz Ahmed, and Sunho Lim, IEEE Internet of Things Journal (Impact Factor: 9.471), Vol. 9, Iss. 12, pp. 9918--9933, 2022. <a href="document/paper/ieee_iotj_2022_pmap.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="https://github.com/congpu/PMAP" target="_blank"> <img src="image/logo/GitHub.png" height="30"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE MDM'22</span> <a target="_blank" href="document/paper/ieee_mdm_2022.pdf">"SecureIoD: A Secure Data Collection and Storage Mechanism for Internet of Drones"</a>, <b>Cong Pu</b>, Andrew Wall, Imtiaz Ahmed, and Kim-Kwang Raymond Choo, Proceedings of the 23rd IEEE International Conference on Mobile Data Management (MDM 2022), Paphos, Cyprus, June 6 - 9, 2022. (Acceptance Rate: 26%) <a href="document/paper/ieee_mdm_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="document/slide/ieee_mdm_2022_slides.pdf" target="_blank"> <img src="image/icon/ppt.png" height="25"></a> <a href="https://github.com/congpu/SecureIoD" target="_blank"> <img src="image/logo/GitHub.png" height="30"></a> </li>
+
+                            <!--
+                            <li align="justify"><span class="label label-success">CRC Book Chapter</span> <a target="_blank" href="document/paper/CRC_Press_Book_Chapter_2022.pdf">"Cyber Attacks and Countermeasures in RPL-based Industrial Internet of Things"</a>, <b>Cong Pu</b>, Book Chapter in CRC Press Book Entitled "Intelligent Cyber-Physical Systems Security for Industry 4.0: Applications, Challenges and Management", CRC Press (USA), 2022. <a href="document/paper/CRC_Press_Book_Chapter_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> </li>
+                            -->
+                            
+                            <li align="justify"><span class="label label-success">IEEE ICC'22</span> <a target="_blank" href="document/paper/ieee_icc_workshop_2022.pdf">"A Reinforcement Learning Based Service Scheduling Algorithm for Internet of Drones"</a>, <b>Cong Pu</b>, Proceedings of the IEEE International Conference on Communications (ICC) 2022 - UAV5G Workshop, Seoul, South Korea, May 16 - 20, 2022. <a href="document/paper/ieee_icc_workshop_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE VTC'22</span> <a target="_blank" href="document/paper/ieee_vtc_spring_2022.pdf">"Mitigating Routing Misbehavior in the Internet of Drones Environment"</a>, <b>Cong Pu</b> and Pingping Zhu, Proceedings of the 2022 IEEE 95th Vehicular Technology Conference (VTC2022-Spring), Helsinki, Finland, June 19 - 22, 2022. <a href="document/paper/ieee_vtc_spring_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="document/slide/ieee_vtc_2022_spring_slides.pdf" target="_blank"> <img src="image/icon/ppt.png" height="25"></a> </li>
+
+                            <li align="justify"><span class="label label-success">Elsevier VEHCOM</span> <a target="_blank" href="document/paper/elsevier_vehcom_2022.pdf">"DarkSky: Privacy Preserving Target Tracking Strategies Using a Flying Drone"</a>, Samhith Reddy Chinthi-Reddy, Sunho Lim, Gyu Sang Choi, Jinseok Chae, and <b>Cong Pu</b>, Elsevier Vehicular Communications (Impact Factor: 6.91), Vol. 35, pp. 100459, June 2022. <a href="document/paper/elsevier_vehcom_2022.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> </li>
+                        
+                            <li align="justify"><span class="label label-success">Elsevier COSE</span> <a target="_blank" href="document/paper/elsevier_cose_2021.pdf">"Lightweight Sybil Attack Detection in IoT Based on Bloom Filter and Physical Unclonable Function"</a>, <b>Cong Pu</b> and Kim-Kwang Raymond Choo, Elsevier Computers & Security (Impact Factor: 4.438), Vol. 113, pp. 102541, February 2022. <a href="document/paper/elsevier_cose_2021.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> </li>
+
+                            <li align="justify"><span class="label label-success">IEEE GLOBECOM'21</span> <a target="_blank" href="document/paper/ieee_globecom_2021.pdf">"Defending against Flooding Attacks in the Internet of Drones Environment"</a>, <b>Cong Pu</b> and Pingping Zhu, Proceedings of the 2021 IEEE Global Communications Conference (GLOBECOM), pp. 1--6, 2021. <a href="document/paper/ieee_globecom_2021.pdf" target="_blank"> <img src="image/icon/pdf.gif" height="25"></a> <a href="document/slide/ieee_globecom_2021_slides.pdf" target="_blank"> <img src="image/icon/ppt.png" height="25"></a> </li>
+                        </ul>
+
+                        <a href="publication.html" class="btn btn-primary">All Publications&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- Awards Section -->
+         <section  name="award" id="award">
+             <div class="container lead">
+                 <div style="text-align: left; margin-top:10px" class="col-md-12">
+                     
+                     <b class="noshow" style="display:none;" id="tab-6">
+                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                     </b>
+                     <div class="allshow" style="display:none;" id="tab-awards-content">
+                         
+                         <hr class="star-primary">
+
+                         <h2>Selected Awards and Honors <a href="award.html" class="btn btn-primary">More&raquo;</a></h2>
+
+                         <ul>
+                            <li align="justify">
+                                <span class="label label-success">NASA</span> NASA EPSCoR Research Seed Grants Award, NASA WV EPSCoR, WV, USA, April 2020.
+                             </li>
+
+                            <li align="justify">
+                                <span class="label label-success">IEEE ICDIS'19</span> <a target="_blank" href="document/certificate/best_paper_award_icdis_2019.pdf">Best Paper Award</a>, IEEE International Conference on Data Intelligence and Security (ICDIS), June 2019.
+                            </li>
+
+                            <li align="justify">
+                                <span class="label label-success">NASA</span> NASA West Virginia Space Grant Consortium Research Initiation Grant Award, NASA West Virginia Space Grant Consortium, WV, USA, April 2018.
+                             </li>
+
+                            <li align="justify">
+                                <span class="label label-success">Marshall Univ.</span> John Marshall University Summer Scholars Award, Marshall University, Huntington, WV, USA, February 2018
+                             </li>
+
+                            <li align="justify">
+                                <span class="label label-success">Texas Tech Univ.</span> Helen DeVitt Jones Excellence in Graduate Teaching Award, Texas Tech University, Lubbock, TX, USA, April 2015.
+                            </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+        <!-- Courses Section -->
+        <section  name="course" id="course">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+
+                        <hr class="star-primary">
+
+                        <h2>Courses <a href="course.html" class="btn btn-primary">More&raquo;</a></h2>
+                        
+                        <img src="image/logo/osu-nomenclature.png" alt="" width="440" height="80"/>
+                        
+                        <h3><span class="label label-info"><font color="white">Undergraduate Courses</font></span></h3>
+
+						<ul>	
+							<li><span class="label label-success">CS 3353: Data Structures and Algorithm Analysis I</span> <span class="label label-warning"><a href="course/cs3353.html" target="_blank">Course Webpage</a></span> </li>
+                        </ul>
+
+                        <!--
+                        <h3><span class="label label-info"><font color="white">Graduate Courses</font></span></h3>
+
+						<ul>	
+							<li><span class="label label-success"></span></li>
+                        </ul>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Service Section -->
+        <section name="service" id="service">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Professional Service <a href="service.html" class="btn btn-primary">More&raquo;</a> </h2>
+
+                        <p>
+                        <h3><span class="label label-info"><font color="white">Editorial Boards</font></span></h3>
+                        
+                        <ul>
+                            <li align="justify"><b>Associate Editor</b>, <a target="_blank" href="https://digital-library.theiet.org/content/journals/iet-net">IET Networks Journal</a>. (03/2021 - Current) 
+                                <br><img width="200" src="image/logo/iet_networks.png"/>
+                            </li>
+
+                            <li align="justify"><b>Associate Editor</b>, <a target="_blank" href="https://ieeeaccess.ieee.org/">IEEE Access Journal</a>. (07/2019 - Current)
+                                <br><img width="150" src="image/logo/ieee_access.png"/>
+                            </li>
+
+                            <li align="justify"><b>Associate Editor</b>, <a target="_blank" href="https://journals.sagepub.com/home/dsn">International Journal of Distributed Sensor Networks</a>. (08/2019 - Current)
+                                <br><img width="100" src="image/logo/sage_ijdsn.png"/>
+                            </li>
+
+                            <!--
+                            <li align="justify"><b>Associate Editor</b>, <a target="_blank" href="https://www.hindawi.com/journals/wcmc/">Wireless Communications and Mobile Computing Journal</a>. (08/2020 - Current)
+                                <br><img width="70" src="image/logo/hindawi_jcnc.png"/>
+                            </li>
+
+                            <li align="justify"><b>Associate Editor</b>, <a target="_blank" href="https://www.hindawi.com/journals/jcnc/">Journal of Computer Networks and Communications</a>. (08/2019 - Current)
+                                <br><img width="70" src="image/logo/hindawi_jcnc.png"/>
+                            </li>
+                            -->
+
+                        </ul>
+                        </p>
+                        
+                        <p>
+                        <h3><span class="label label-info"><font color="white">Journal and Magazine Review</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <b>Journal Review:</b> 
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25" target="_blank"> Transactions on Vehicular Technology</a>;
+                                Elsevier<a href="https://www.sciencedirect.com/journal/journal-of-industrial-information-integration" target="_blank"> Journal of Industrial Information Integration</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245522" target="_blank"> China Communications</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/microprocessors-and-microsystems" target="_blank"> Microprocessors and Microsystems</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979" target="_blank"> Transactions on Intelligent Transportation Systems</a>;
+                                Wiley<a href="https://onlinelibrary.wiley.com/journal/21613915" target="_blank"> Transactions on Emerging Telecommunications Technologies</a>;
+                                Taylor & Francis<a href="https://www.tandfonline.com/toc/ccos20/current" target="_blank"> Connection Science</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/array" target="_blank"> Array</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962382" target="_blank"> Wireless Communications Letters</a> (<b>2021 Exemplary Reviewer</b> <a href="document/certificate/exemplary_reviewer_certificate_wcl_2021.pdf" target="_blank"> <img src="image/icon/certificate.png" height="35"></a>);
+                                Elsevier<a href="https://www.sciencedirect.com/journal/internet-of-things" target="_blank"> Internet of Things</a>;
+                                <!--
+                                Springer<a href="https://www.springer.com/journal/10586" target="_blank"> Cluster Computing</a>;
+                                Elsevier<a href="https://www.sciencedirect.com/journal/digital-communications-and-networks" target="_blank"> Digital Communications and Networks</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/journal-of-network-and-computer-applications" target="_blank"> Journal of Network and Computer Applications</a>;
+                                Springer<a href="https://www.springer.com/journal/12083" target="_blank"> Peer-to-Peer Networking and Applications</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361" target="_blank"> Sensors Journal</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/measurement" target="_blank"> Measurement</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/journal-of-information-security-and-applications" target="_blank"> Journal of Information Security and Applications</a>;
+                                Springer<a href="https://www.springer.com/journal/500" target="_blank"> Soft Computing</a>;
+                                Hindawi<a href="https://www.hindawi.com/journals/scn/" target="_blank"> Security and Communication Networks</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/journal-of-king-saud-university-computer-and-information-sciences" target="_blank"> Journal of King Saud University - Computer and Information Sciences</a>;
+                                MDPI<a href="https://www.mdpi.com/journal/jsan" target="_blank"> Journal of Sensor and Actuator Networks</a>;
+                                Elsevier<a href="https://www.sciencedirect.com/journal/ad-hoc-networks" target="_blank"> Ad Hoc Networks</a>;
+                                Hindawi<a href="https://www.hindawi.com/journals/wcmc/" target="_blank"> Wireless Communications and Mobile Computing</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/ain-shams-engineering-journal" target="_blank"> Ain Shams Engineering Journal</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/computers-and-electrical-engineering" target="_blank"> Computers and Electrical Engineering</a>;
+                                Springer<a href="https://www.springer.com/journal/42452" target="_blank"> SN Applied Sciences</a>;
+                                ACM<a href="https://dl.acm.org/journal/toit" target="_blank"> Transactions on Internet Technology</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=17" target="_blank"> Transactions on Engineering Management</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/computers-and-security" target="_blank"> Computers & Security</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing" target="_blank"> Journal of Parallel and Distributed Computing</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank"> Transactions on Information Forensics & Security</a>;
+                                Elsevier<a href="https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety" target="_blank"> Reliability Engineering and System Safety</a>;
+                                IEEE<a href="https://ieee-iotj.org/" target="_blank"> Internet of Things</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26" target="_blank"> Transactions on Communications</a>;
+                                ACM<a href="https://dl.acm.org/journal/tosn" target="_blank"> Transactions on Sensor Networks</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7693" target="_blank"> Transactions on Wireless Communications</a>;
+                                IEEE/ACM<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90" target="_blank"> Transactions on Networking</a>;
+                                Elsevier<a href="https://www.journals.elsevier.com/computer-communications" target="_blank"> Computer Communications</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424" target="_blank"> Transactions on Industrial Informatics</a>;
+                                IEEE<a href="https://ieeeaccess.ieee.org/" target="_blank"> Access Journal</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003" target="_blank"> Systems Journal</a>;
+                                Bentham<a href="https://benthamscience.com/journals/international-journal-of-sensors-wireless-communications-and-control/" target="_blank"> International Journal of Sensors, Wireless Communications and Control</a>;
+                                -->
+                            </li>
+
+                            <li align="justify">
+                                <b>Magazine Review:</b>
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=62" target="_blank"> IEEE Aerospace and Electronic Systems Magazine</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962380" target="_blank"> IEEE Consumer Electronics Magazine</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/document/1355026" target="_blank"> IEEE Network Magazine</a>;
+                                IEEE<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7742" target="_blank"> IEEE Wireless Communications Magazine</a>;
+                            </li>
+                        </ul>
+                        </p>
+
+                        <p>
+                            <h3><span class="label label-info"><font color="white">Conference Committees</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <b>IEEE CSE:</b> <a href="https://www.computer.org/csdl/proceedings/cse/2020/1r6IWJmd58A" target="_blank">2020</a> <i>[IEEE International Conference on Computational Science and Engineering]</i>
+                            </li>
+                        </ul>
+                        </p>
+
+                        <p>
+                            <h3><span class="label label-info"><font color="white">Workshop and Symposia Committees</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <b>IEEE WTS:</b> <a href="https://www.cpp.edu/~wtsi/" target="_blank">2022</a>, 2021, 2020, 2019 <i>[IEEE Wireless Telecommunications Symposium]</i>
+                            </li>
+                        </ul>
+                        </p>
+
+                        <p>
+                        <h3><span class="label label-info"><font color="white">Invited Talk</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <b>IEEE NAECON:</b> Session "Machine Learning, Guidance, and Control", <a target="_blank" href="https://attend.ieee.org/naecon-2021/program/speakers/">2021 IEEE National Aerospace & Electronics Conference (NAECON)</a>, August 16-19, 2021, Dayton, OH, USA. (Virtual Conference) <a href="document/slide/ieee_naecon_2021_talk.pdf" target="_blank"> <img src="image/icon/ppt.png" height="25"></a>
+                            </li>
+                        </ul>
+                        </p>
+
+                        <a href="service.html" class="btn btn-primary">More&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Advising Section -->
+        <section name="advising" id="advising">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Advising <a href="advising.html" class="btn btn-primary">More&raquo;</a></h2>
+                        <!--
+                        <img src="image/logo/osu-nomenclature.png" alt="" width="440" height="80"/>
+						-->
+                        <ul>	
+							<li align="justify">
+                                <span class="label label-success">Ph.D. Opportunity:</span> Ph.D. positions in the areas of network security, data privacy, applied cryptography, wireless networking, and mobile computing are open starting from Fall 2022 or Spring 2023. Prospective Ph.D. students who have interests in the above research areas are encouraged to send the CV and supporting documents (e.g., sample publications, transcripts, and GRE and TOEFL scores) to Dr. Cong Pu.
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Systems Section -->
+        <section name="system" id="system">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Systems</h2>
+						
+                        <ul>	
+							<li align="justify">
+                                <span class="label label-success">PMAP</span> <a target="_blank" href="https://github.com/congpu/PMAP">Mutual Authentication and Key Agreement Protocol for IoD</a>
+                            </li>
+
+                            <li align="justify">
+                                <span class="label label-default">SecureIoD</span> <a target="_blank" href="https://github.com/congpu/SecureIoD">Secure Data Collection and Storage System for IoD</a>
+                            </li>
+
+                            <li align="justify">
+                                <span class="label label-info">liteAuth</span> <a target="_blank" href="https://github.com/congpu/liteAuth">Mutual Authentication and Key Agreement Protocol for WBANs</a>
+                            </li>
+
+                            <li align="justify">
+                                <span class="label label-danger">liteCrypto</span> <a target="_blank" href="https://github.com/congpu/liteCrypto">Bilinear Pairing and PUF Based Lightweight Authentication Protocol for IoD</a>
+                            </li>
+                        </ul>
+
+                        <a href="https://github.com/congpu/" target="_blank"> <img src="image/logo/github-nomenclature.png" height="60"></a>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Random Links -->
+        <section name="link" id="link">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Random Links</h2>
+						
+                        <ul>	
+							<li><span class="label label-success"><font color="white">Have a Hard Time?</font></span> Watch <a target="_blank" href="https://www.youtube.com/watch?v=gMWXMMUg5pI">"Life is Hard"</a> </li>
+                            <li><span class="label label-info"><font color="white">CSRankings</font></span> <a target="_blank" href="http://csrankings.org/#/index?all&us">Computer Science Rankings</a> </li>
+                            <li><span class="label label-default"><font color="white">Conf. Ranking</font></span> <a target="_blank" href="https://research.com/conference-rankings/computer-science/network-communication">Top Computer Science Conferences for Network-Communication</a> </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    Copyright © 2022 | Cong Pu, Oklahoma State University
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="image/icon/ccby.png"/></a>
+                    <div style="display:none;" id="credit">
+                        [Website template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/congpu" target="_blank">https://github.com/congpu</a>]
+                    </div>
+                </center>
+            </small>
+        </footer>
+    </body>
+</html>

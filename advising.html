@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>[Cong Pu @ Oklahoma State]</title>
+        <link rel="shortcut icon" href="image/logo/okstate-logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Cong Pu, Oklahoma State University">
+        <meta name="author" content="Cong Pu">
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="index.html"><img border="0" width="90" src="image/logo/okstate-logo.png"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html#intro">Introduction</a></li>
+                                <li><a target="_blank" href="document/cv/cpu-cv-2021.pdf">CV (PDF)</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="index.html#news">News</a>
+                        </li>
+     
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="index.html#publication">Publication</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="index.html#award">Award</a>
+                        </li>
+              
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="index.html#course">Course</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="index.html#service">Service</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="index.html#advising">Advising</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="index.html#system">System</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="secnet/index.html" target="_blank">Lab</a>
+                        </li>
+                        <!--
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li> 
+                        -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                </div>
+                
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+        </section>
+        
+        <!-- Advising Section -->
+        <section name="advising" id="advising">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Advising</h2>
+
+                        <img src="image/logo/osu-nomenclature.png" alt="" width="440" height="80"/>
+
+                        <ul>	
+							<li align="justify">
+                                <span class="label label-success">Ph.D. Opportunity:</span> Ph.D. positions in the areas of network security, data privacy, applied cryptography, wireless networking, and mobile computing are open starting from Fall 2022 or Spring 2023. Prospective Ph.D. students who have interests in the above research areas are encouraged to send the CV and supporting documents (e.g., sample publications, transcripts, and GRE and TOEFL scores) to Dr. Cong Pu.
+                            </li>
+                        </ul>
+
+                        <img src="image/logo/marshall_mark.png" alt="" width="216" height="61.5"/>
+
+                        <h3><span class="label label-info"><font color="white">Graduate Students</font></span></h3>
+                        <ul>
+                            <li>
+                                <span class="label label-primary">M.S.</span> Yucheng Li (August 2020)
+                                <ul>
+                                    <li align="justify"><span class="label label-success">IEEE CSE'20</span> "Lightweight Digital Signature Solution to Defend Micro Aerial Vehicles Against Man-In-The-Middle Attack", Yucheng Li and Cong Pu, Proceedings of the 23rd IEEE International Conference on Computational Science and Engineering, pp. 92--97, 2020.</li>
+                                    <li align="justify"><span class="label label-success">IEEE LANMAN'20</span> "Lightweight Authentication Protocol for Unmanned Aerial Vehicles Using Physical Unclonable Function and Chaotic System", Cong Pu and Yucheng Li, Proceedings of the 2020 IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN), pp., 2020.</li>
+                                    <li align="justify"><span class="label label-success">Master Thesis</span> "DroneSig: Lightweight Digital Signature Protocol for Micro Aerial Vehicles", Yucheng Li, Master Thesis, 2020.</li>
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">M.S.</span> Xitong Zhou (December 2018)
+								<ul>
+									<li align="justify"><span class="label label-success">IEEE CCWC'19</span> "RescueMe: Smartphone-Based Self Rescue System for Disaster Rescue", Cong Pu and Xitong Zhou, Proceedings of the IEEE Computing and Communication Workshop and Conference (CCWC), pp. 0832--0837, 2019.</li>
+									<li align="justify"><span class="label label-success">MDPI Sensors</span> "Suppression Attack Against Multicast Protocol in Low Power and Lossy Networks: Analysis and Defenses", Cong Pu and Xitong Zhou, Sensors Journal (Impact Factor: 3.031), Vol. 18, No. 10, pp. 3236, 2018.</li>
+									<li align="justify"><span class="label label-success">IEEE LCN'18</span> "Mitigating Suppression Attack in Multicast Protocol for Low Power and Lossy Networks", Cong Pu, Xitong Zhou, and Sunho Lim, Proceedings of the IEEE Conference on Local Computer Networks (LCN), pp. 251--254, 2018.</li>
+                                    <li align="justify"><span class="label label-success">Master Thesis</span> "Smartphone-Based Self Rescue System for Disaster Relief", Xitong Zhou, Master Thesis, 2018.</li>
+                                </ul>
+                            </li>
+
+							<li>
+                                <span class="label label-primary">M.S.</span> Yigitcan Celik (May 2018)
+								<ul>
+									<li align="justify"><span class="label label-success">WASA'18</span> "A Novel Energy Harvesting Aware IEEE 802.11 Power Saving Mechanism"</a>, Yigitcan Celik and Cong Pu, Proceedings of the International Conference on Wireless Algorithms, Systems, and Applications (WASA), pp. 14--26, 2018.</li>
+                                    <li align="justify"><span class="label label-success">Master Thesis</span> "A Novel Energy Harvesting Aware IEEE 802.11 Power Saving Mechanism", Yigitcan Celik, Master Thesis, 2018.</li>
+                                </ul>
+							</li>
+
+                            <li>
+                                <span class="label label-primary">M.S.</span> Vikram Aditya Tugali Katarukonda (May 2020)
+								<ul>
+									<li align="justify"><span class="label label-success">Research Project</span> "West Virginia Department of Education Web Application Penetration Testing"</a>, Spring 2020.</li>
+                                </ul>
+							</li>
+                        </ul>
+						
+                        <h3><span class="label label-info"><font color="white">Undergraduate Students</font></span></h3>
+                        <ul>
+                            <li>
+                                <span class="label label-primary">B.S.</span> Evan Allen (May 2021)
+								<ul>
+                                    <li align="justify"><span class="label label-success">IEEE Access</span> "A Stochastic Packet Forwarding Algorithm in Flying Ad Hoc Networks: Design, Analysis, and Evaluation", Cong Pu, Imtiaz Ahmed, Evan Allen, and Kim-Kwang Raymond Choo, IEEE Access Journal (Impact Factor: 3.367), Vol. 9, pp. 162614--162632, 2021. </li>
+                                    <li align="justify"><span class="label label-success">Research Project</span> "A Secure Data Collection and Storage Mechanism for Internet of Drones", Spring 2021. </li>
+									<li align="justify"><span class="label label-success">Research Project</span> "SPA: Stochastic Packet Forwarding Algorithm in Flying Ad Hoc Networks", Fall 2020. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Haleigh Zerkle (May 2023, Expected)
+								<ul>
+                                    <li align="justify"><span class="label label-success">IEEE IoTJ</span> "A Lightweight and Anonymous Authentication and Key Agreement Protocol for Wireless Body Area Networks", Cong Pu, Haleigh Zerkle, Andrew Wall, Sunho Lim, Kim-Kwang Raymond Choo, and Imtiaz Ahmed, IEEE Internet of Things Journal (Impact Factor: 9.471), May 13, 2022, <b>Accepted For Publication</b>. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> Summer 2021 Undergraduate Research Experience (SURE) Program Award ($4,000), West Virginia Research Challenge Fund (WV Higher Education Policy Commission, Division of Science and Research), March 21, 2021. </li>
+									<li align="justify"><span class="label label-success">Research Project</span> "Light-Weight Mutual Authentication Protocol for Medical Devices", Fall 2020 - Current. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Andrew Wall (May 2022)
+								<ul>
+                                    <li align="justify"><span class="label label-success">IEEE IoTJ</span> "A Lightweight and Anonymous Authentication and Key Agreement Protocol for Wireless Body Area Networks", Cong Pu, Haleigh Zerkle, Andrew Wall, Sunho Lim, Kim-Kwang Raymond Choo, and Imtiaz Ahmed, IEEE Internet of Things Journal (Impact Factor: 9.471), May 13, 2022, <b>Accepted For Publication</b>. </li>
+                                    <li align="justify"><span class="label label-success">IEEE IoTJ</span> "A Lightweight and Privacy-Preserving Mutual Authentication and Key Agreement Protocol for Internet of Drones Environment", Cong Pu, Andrew Wall, Kim-Kwang Raymond Choo, Imtiaz Ahmed, and Sunho Lim, IEEE Internet of Things Journal (Impact Factor: 9.471), March 27, 2022, <b>Accepted For Publication</b>. </li>
+                                    <li align="justify"><span class="label label-success">IEEE MDM'22</span> "SecureIoD: A Secure Data Collection and Storage Mechanism for Internet of Drones", Cong Pu, Andrew Wall, Imtiaz Ahmed, and Kim-Kwang Raymond Choo, Proceedings of the 23rd IEEE International Conference on Mobile Data Management (MDM 2022), Paphos, Cyprus, June 6 - 9, 2022, <b>Accepted To Appear</b>. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Fellowship Program Award ($1,000), November 02, 2021. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> Undergraduate Creative Discovery Summer Scholar and Undergraduate Research Summer Scholar Awards ($5,000), Summer 2021. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> "Mutual Authentication Protocol for Internet of Drones," Andrew Wall, 18th annual West Virginia Undergraduate Research Day at the Capitol (URDC), March 05, 2021. (Runner-up Award of the Engineering & Technology Category) </li>
+									<li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Fellowship Program Award ($1,000), November 18, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Research Presentation</span> "A Duffing Map Based Lightweight Authentication Protocol for Micro Aerial Vehicles", Oral Presentation, 2020 West Virginia University Virtual Summer Undergraduate Research Symposium, July 23 - 30, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> Summer 2020 Undergraduate Research Experience (SURE) Program Award ($4,000), West Virginia Research Challenge Fund (WV Higher Education Policy Commission, Division of Science and Research), May 16, 2020. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Cameron Prater (May 2022)
+								<ul>
+                                    <li align="justify"><span class="label label-success">Research Presentation</span> "Moris: Morisita Index-Based Countermeasure Against Sybil Attacks in Internet of Things," Cameron Prater, 18th annual West Virginia Undergraduate Research Day at the Capitol (URDC), March 05, 2021. </li>
+									<li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Fellowship Program Award ($5,000), Fall 2020 - Spring 2021. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Alisha Joseph (May 2023, Expected)
+								<ul>
+                                    <li align="justify"><span class="label label-success">Award</span> First2 Network and NASA WV Space Grant Consortium Research Fellowship Award ($2,500), Jan 06, 2021. </li>
+									<li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Affiliate Fellowship Program Award ($1,000), November 18, 2020. </li>	
+                                    <li align="justify"><span class="label label-success">Research Project</span> "Forensic Analysis of App on Android Smartphones", Fall 2020 - Current. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Ethan Endres (May 2023, Expected)
+								<ul>
+                                    <li align="justify"><span class="label label-success">Award</span> First2 Network and NASA WV Space Grant Consortium Research Fellowship Award ($2,500), Jan 06, 2021. </li>
+									<li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Affiliate Fellowship Program Award ($1,000), November 18, 2020. </li>	
+                                    <li align="justify"><span class="label label-success">Research Project</span> "Forensic Analysis of App on Android Smartphones", Fall 2020 - Current. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> David Baddoo (May 2023, Expected)
+								<ul>	
+                                    <li align="justify"><span class="label label-success">Research Project</span> "West Virginia Department of Education Web Application Penetration Testing", Fall 2019 - Spring 2020. </li>	
+								</ul>
+                            </li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Jake Gressang (December 2020)
+								<ul>
+									<li align="justify"><span class="label label-success">Research Presentation</span> "Morisita Index-Based Countermeasure against Sybil Attack in the Internet of Things", Jake Gressang, 17th annual West Virginia Undergraduate Research Day at the Capitol (URDC), February 07, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> "Morisita Index-Based Countermeasure against Sybil Attack in the Internet of Things", Jake Gressang, 1st Place Award, 2019 IEEE West Virginia Student Awards in the STEM Field, Dec 6, Charleston, WV. </li>	
+                                    <li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Fellowship Program Award ($5,000), Fall 2019 - Spring 2020. </li>	
+                                </ul>
+							</li>
+
+							<li>
+                                <span class="label label-primary">B.S.</span> Logan Carpenter (May 2020)
+								<ul>
+                                    <li align="justify"><span class="label label-success">IEEE Systems Journal</span> "Psched: A Priority-Based Service Scheduling Scheme for the Internet of Drones", Cong Pu and Logan Carpenter, IEEE Systems Journal (Impact Factor: 4.463), May, 2020. </li>
+                                    <li align="justify"><span class="label label-success">IEEE HPSR'20</span> "A Theil Index-Based Countermeasure Against Advanced Vampire Attack in Internet of Things", Cong Pu, Jacqueline Brown and Logan Carpenter, Proceedings of the 2020 IEEE 21st International Conference on High Performance Switching and Routing (HPSR), pp. 1--6, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Affiliate Fellowship Program Award ($1,000), Spring 2020.</li>
+                                    <li align="justify"><span class="label label-success">IEEE NCA'19</span> "To Route or To Ferry: A Hybrid Packet Forwarding Algorithm in Flying Ad Hoc Networks", Cong Pu and Logan Carpenter, Proceedings of the IEEE International Symposium on Network Computing and Applications (NCA), September 2019. </li>
+                                    <li align="justify"><span class="label label-success">IEEE NCA'19</span> "Digital Signature Based Countermeasure Against Puppet Attack in the Internet of Things", Cong Pu and Logan Carpenter, Proceedings of the IEEE International Symposium on Network Computing and Applications (NCA), September 2019. </li>
+									<li align="justify"><span class="label label-success">Award</span> Undergraduate Creative Discovery Scholar and Undergraduate Research Scholar Awards ($4,000), Summer 2019.</li>
+								</ul>
+							</li>
+
+							<li>
+                                <span class="label label-primary">B.S.</span> Jacqueline Brown (May 2022)
+								<ul>
+                                    <li align="justify"><span class="label label-success">Award</span> Finalist for the 2021 NCWIT Collegiate Award, Jan 06, 2021. </li>
+                                    <li align="justify"><span class="label label-success">IEEE HPSR'20</span> "A Theil Index-Based Countermeasure Against Advanced Vampire Attack in Internet of Things"</a>, Cong Pu, Jacqueline Brown, and Logan Carpenter, Proceedings of the 2020 IEEE 21st International Conference on High Performance Switching and Routing (HPSR), pp. 1--6, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> The Science, Mathematics, And Research For Transformation (SMART) Defense Scholarship from Department of Defense (DoD), April 30, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> Summer 2020 Research Experiences for Undergraduates Sites Award ($7,200) from Old Dominion University, March 12, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Research Presentation</span> "Combating Advanced Vampire Attack: A Theil Index-Based Countermeasure in Internet of Things", Jacqueline Brown, 17th annual West Virginia Undergraduate Research Day at the Capitol (URDC), February 07, 2020. </li>
+                                    <li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Affiliate Fellowship Program Award ($1,000), Spring 2020. </li>
+									<li align="justify"><span class="label label-success">IEEE CPSCom'19</span> "Self-Adjusting Share-Based Countermeasure to Interest Flooding Attack in Named Data Networking", Cong Pu, Nathaniel Payne, and Jacqueline Brown, Proceedings of the IEEE International Conference on Cyber Physical and Social Computing (CPSCom), pp. 142--147, 2019. </li>
+									<li align="justify"><span class="label label-success">Award</span> Summer Undergraduate Research Experience Program Award ($4,000), Summer 2019. </li>
+								</ul>
+							</li>
+
+							<li>
+                                <span class="label label-primary">B.S.</span> Nathaniel Payne (May 2020)
+								<ul>
+									<li align="justify"><span class="label label-success">IEEE CPSCom'19</span> "Self-Adjusting Share-Based Countermeasure to Interest Flooding Attack in Named Data Networking"</a>, Cong Pu, Nathaniel Payne, and Jacqueline Brown, Proceedings of the IEEE International Conference on Cyber Physical and Social Computing (CPSCom), pp. 142--147, 2019. </li>	
+								</ul>
+							</li>
+
+                            <li>
+                                <span class="label label-primary">B.S.</span> Bryan Groves (May 2019)
+								<ul>
+                                    <li align="justify"><span class="label label-success">IEEE MILCOM'19</span> "A Gini Index-Based Countermeasure Against Sybil Attack in the Internet of Things", Bryan Groves and Cong Pu</b>, Proceedings of the IEEE Military Communications Conference (MILCOM), November 2019. </li>
+									<li align="justify"><span class="label label-success">IEEE ICDIS'19</span> "Energy Depletion Attack in Low Power and Lossy Networks: Analysis and Defenses", Cong Pu and Bryan Groves, Proceedings of the International Conference on Data Intelligence and Security (ICDIS), pp. 14--21, 2019. </li>	
+									<li align="justify"><span class="label label-success">IEEE ICDIS'19</span> "Mitigate Spam DIS Attack in RPL-based Low Power and Lossy Networks", Bryan Groves and Cong Pu, Proceedings of the International Conference on Data Intelligence and Security (ICDIS), June 2019.</li>
+									<li align="justify"><span class="label label-success">Award</span> Undergraduate Creative Discovery Scholar and Undergraduate Research Scholar Awards ($1,750), Spring 2019.</li>
+									<li align="justify"><span class="label label-success">Award</span> NASA West Virginia Space Grant Undergraduate Fellowship Program Award ($1,000), Fall 2018.</li>
+								</ul>
+                            </li>
+                        </ul>
+
+                        <h3><span class="label label-info"><font color="white">Competition</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <span class="label label-success">NSIN Hackathon</span> <a href="https://www.nsin.us/events/2021-beat-the-blaze-hackathon/" target="_blank">Beat The Blaze Hackathon</a>, Wenjie Xu (Marshall Univ), Samuel Joseph Hedrick (Marshall Univ), Derek Wade Chandler (Marshall Univ), and Samuel Temesgen (WVSU), March 29 - April 16, 2021. <a href="document/competition/NSIN-BeatTheBlaze-2021-Pu.pdf"> <img src="image/icon/ppt.png" height="30"></a> <a href="document/competition/beat-the-blaze-solution-2021.pdf"> <img src="image/icon/pdf.gif" height="25"></a>
+                            </li>
+                        </ul>
+
+                        <h3><span class="label label-info"><font color="white">Capstone Projects</font></span></h3>
+                        <ul>
+                            <li align="justify">
+                                <span class="label label-success">System</span> "Automated Penetration Testing Web Application", Xi Zhang, Han-Ying Chen, Keyur Ishwarbhai Donda, and Sean Joseph Freitus, Spring 2020. <a href="video/pen-testing-system.mp4" target="_blank"> <img src="image/icon/video.jpg" width="40" height="40"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    Copyright © 2022 | Cong Pu, Oklahoma State University
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="image/icon/ccby.png"/></a>
+                    <div style="display:none;" id="credit">
+                        [Website template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/congpu" target="_blank">https://github.com/congpu</a>]
+                    </div>
+                </center>
+            </small>
+        </footer>
+    </body>
+</html>
