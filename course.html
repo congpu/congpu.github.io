@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>[Cong Pu @ Oklahoma State]</title>
+        <link rel="shortcut icon" href="image/logo/okstate-logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Cong Pu, Oklahoma State University">
+        <meta name="author" content="Cong Pu">
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="index.html"><img border="0" width="90" src="image/logo/okstate-logo.png"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html#intro">Introduction</a></li>
+                                <li><a target="_blank" href="document/cv/cpu-cv-2021.pdf">CV (PDF)</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="index.html#news">News</a>
+                        </li>
+     
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="index.html#publication">Publication</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="index.html#award">Award</a>
+                        </li>
+              
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="index.html#course">Course</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="index.html#service">Service</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="index.html#advising">Advising</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="index.html#system">System</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="secnet/index.html" target="_blank">Research Lab</a>
+                        </li>
+                        <!--
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li> 
+                        -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                </div>
+                
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+        </section> 
+
+        <!-- Courses Section -->
+        <section  name="course" id="course">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+
+                        <hr class="star-primary">
+
+                        <h2>Courses</h2>
+
+                        <img src="image/logo/osu-nomenclature.png" alt="" width="440" height="80"/>
+
+                        <ul>	
+							<li><span class="label label-success">CS 3353: Data Structures and Algorithm Analysis I</span> <span class="label label-warning"><a href="course/cs3353.html" target="_blank">Course Webpage</a></span> </li>
+                        </ul>
+
+                        <!--
+                        <h3><span class="label label-info"><font color="white">Graduate Courses</font></span></h3>
+
+						<ul>	
+							<li><span class="label label-success"></span></li>
+                        </ul>
+                        -->
+                        
+                        <img src="image/logo/marshall_mark.png" alt="" width="216" height="61.5"/>
+
+                        <h3><span class="label label-info"><font color="white">Graduate Courses</font></span></h3>
+                        <ul>
+							<li><span class="label label-success">CS510: Database Systems</span> </li>
+						
+							<li><span class="label label-success">CS582: Applied Cryptography</span> </li>
+                        
+                            <li><span class="label label-success">CS620: Applied Algorithms</span> </li>	
+
+                            <li><span class="label label-success">CYBR500: Computer Security Design</span> </li>
+
+                            <li><span class="label label-success">CYBR615: Cyber Vulnerability Assessment</span> <span class="label label-warning"><a href="course/cybr615.html" target="_blank">Course Webpage</a></span> </li>
+
+							<li><span class="label label-success">CYBR625: Applied Cryptography</span> </li>
+							
+							<li><span class="label label-success">IS623: Database Management</span> </li>
+						</ul>
+
+                        <h3><span class="label label-info"><font color="white">Undergraduate Courses</font></span></h3>
+						<ul>	
+							<li><span class="label label-success">UNI102: Strategies for Academic Success</span> </li>
+						
+							<li><span class="label label-success">CS105: Expl World with Computing</span> </li>
+						
+							<li><span class="label label-success">CS120: Computer Science II</span> </li>
+						
+							<li><span class="label label-success">CS300: Programming Languages</span> <span class="label label-warning"><a href="course/cs300.html" target="_blank">Course Webpage</a></span> </li>
+							
+							<li><span class="label label-success">CS320: Internetworking</span> <span class="label label-warning"><a href="course/cs320.html" target="_blank">Course Webpage</a></span> </li>
+
+							<li><span class="label label-success">CS410: Database Engineering</span> </li>
+							
+							<li><span class="label label-success">CS482: Applied Cryptography</span> </li>
+
+                            <li><span class="label label-success">CYBR240: Information Security Policies</span> </li>
+                            
+                            <li><span class="label label-success">CYBR400: Computer Security Design</span> </li> 
+
+                            <li><span class="label label-success">CYBR435: Cyber Risk</span> <span class="label label-warning"><a href="course/cybr435.html" target="_blank">Course Webpage</a></span> </li>
+                        </ul>
+
+                        <h3><span class="label label-info"><font color="white">Online Courses</font></span></h3>
+                        <ul>
+                            <li><span class="label label-success">CS105: Explore the World with Computing</span> </li>
+                            
+                            <li><span class="label label-success">CS320: Internetworking</span> </li>
+
+                            <li><span class="label label-success">CYBR400: Computer Security Design</span> </li>
+
+                            <li><span class="label label-success">CYBR500: Computer Security Design</span> </li>
+                            
+                            <li><span class="label label-success">CYBR615: Cybersecurity Vulnerability Assessment</span> </li>
+                            
+                            <li><span class="label label-success">CYBR625: Applied Cryptography</span> </li>
+						</ul>
+
+                        <img src="image/logo/texastech_mark.png" alt="" width="360" height="80.25"/>
+
+                        <h3><span class="label label-info"><font color="white">Undergraduate Courses</font></span></h3>
+						<ul>	
+							<li><span class="label label-success">CS1411: Programming Principles I</span></li>
+						
+							<li><span class="label label-success">CS1412: Programming Principles II</span></li>
+						
+							<li><span class="label label-success">CS2413: Data Structures</span></li>
+						
+							<li><span class="label label-success">CS3361: Concepts of Programming Language</span></li>
+							
+							<li><span class="label label-success">CS4354: Concepts of Database System</span></li>
+
+							<li><span class="label label-success">CS4366: Senior Capstone Project</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    Copyright © 2022 | Cong Pu, Oklahoma State University
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="image/icon/ccby.png"/></a>
+                    <div style="display:none;" id="credit">
+                        [Website template available under Creative Commons CC BY 4.0 licence: <a href="https://github.com/congpu" target="_blank">https://github.com/congpu</a>]
+                    </div>
+                </center>
+            </small>
+        </footer>
+    </body>
+</html>
