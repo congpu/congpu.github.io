@@ -16,6 +16,24 @@
         <script src="js/menucollapse.js"></script>
         <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
+
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .img-container {
+              float: left;
+              width: 33.33%;
+              padding: 5px;
+            }
+            
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+        </style>
     </head>
     
     <!--Nobody will find me here...-->
@@ -81,6 +99,10 @@
 
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="secnet/index.html" target="_blank">Research Lab</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-outreach-content').show();" href="#outreach">Outreach</a>
                         </li>
                     </ul>
                 </div>
@@ -550,7 +572,7 @@
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                     
                     <b class="noshow" style="display:none;" id="tab-8">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-system-content').toggle();">System  <span class="glyphicon glyphicon-chevron-down"></span></button>
                     </b>
                     <div class="allshow" style="display:none;" id="tab-advising-content">
                         
@@ -578,6 +600,42 @@
 
                         <a href="https://github.com/congpu/" target="_blank"> <img src="image/logo/github-nomenclature.png" height="60"></a>
                     
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section name="outreach" id="outreach"></section>
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Outreach  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-outreach-content">
+                        
+                        <hr class="star-primary">
+
+                        <h2>Outreach</h2>
+
+                        <div class="clearfix">
+
+                            <div class="img-container">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cs.okstate.edu/cyberbridge" target="_blank"> <img src="image/logo/CyberBridge-Logo.png" height="200"></a>
+                                <p><a target="_blank" href="https://cs.okstate.edu/cyberbridge"><b>CyberBridge Family Summer Camp</b></a></p>
+                            </div>
+
+                            <div class="img-container">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cs.okstate.edu/cyberart" target="_blank"> <img src="image/logo/CyberArt-Logo.png" height="200"></a>
+                                <p><a target="_blank" href="https://cs.okstate.edu/cyberart"><b>CyberArt Pioneers Summer Camp</b></a></p>
+                            </div>
+
+                            <div class="img-container">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cs.okstate.edu/gencyber" target="_blank"> <img src="image/logo/gencyber-logo.png" height="199"></a>
+                                <p><a target="_blank" href="https://cs.okstate.edu/gencybe"><b>GenCyber Cybersecurity Academy</b></a></p>
+                            </div>
+
+                          </div>
                     </div>
                 </div>
             </div>
